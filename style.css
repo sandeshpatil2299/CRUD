@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;600;800&family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Open Sans', sans-serif;
+   font-family: 'Poppins', sans-serif;
+}
+
+.container {
+   height: 100vh;
+   margin: 0 30em;
+}
+
+.heading {
+   text-align: center;
+   padding: 1em;
+   margin: 3em 0 1em 0;
+   background-color: #d2f4ea;
+}
+
+.inputChapter {
+   margin: 1.5em 0 1em 0;
+}
+
+.mainInput {
+   width: 90%;
+   font-size: 1.3rem;
+   padding: 0.2em 0 0.2em 0.4em;
+}
+
+.mainInput:focus {
+   outline: none;
+}
+
+.nInput {
+   width: 80%;
+   font-size: 1rem;
+   padding: 0.1em 0 0.1em 0.4em;
+   border: none;
+}
+
+.nInput:focus {
+   outline: none;
+}
+
+.addBtn {
+   width: 9.9%;
+   font-size: 1.1rem;
+   padding: 0.6em 0.8em 0.4em 0.8em;
+   background-color: #198754;
+   border: none;
+   color: #fff;
+   font-weight: 600;
+   border-radius: 0.2em;
+   cursor: pointer;
+   margin: -2px;
+}
+
+.chapterList ul .list {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   list-style: none;
+   border: 1px solid black;
+   padding: 0.1em 0 0.1em 0.5em;
+   margin-bottom: 1em;
+}
+
+.chapterList ul .list h2 {
+   font-size: 1.4rem;
+   font-weight: 500;
+}
+
+.chapterList ul .list .edit {
+   font-size: 1.1rem;
+   background-color: #ffc107;
+   border: none;
+   font-weight: 600;
+   padding: 0.3em 0.8em 0.3em 0.8em;
+   border-radius: 0.2em;
+   cursor: pointer;
+}
+
+.chapterList ul .list .remove {
+   font-size: 1.1rem;
+   background-color: #dc3545;
+   color: #fff;
+   border: none;
+   font-weight: 600;
+   padding: 0.3em 0.8em 0.3em 0.8em;
+   border-radius: 0.2em;
+   cursor: pointer;
+}
+
+.msg {
+   text-align: center;
+   margin: 1em 0;
+   font-size: 1.8rem;
+   font-weight: 500;
+}
+
+@media (max-width: 786px) {
+   .container {
+      margin: 0px 10px;
+   }
+
+   .heading {
+      padding: 0.4em;
+      margin: 1.5em 0 0.5em 0;
+      font-size: 12px;
+   }
+
+   .inputChapter {
+      margin: 1em 0 1em 0;
+   }
+
+   .mainInput {
+      width: 84%;
+      font-size: 1rem;
+   }
+
+   .nInput {
+      width: 70%;
+      font-size: 1rem;
+      padding: 0.1em 0 0.1em 0.4em;
+      border: none;
+   }
+   
+   .addBtn {
+      width: 15%;
+      font-size: 1rem;
+      padding: 0.3em;
+   }
+
+   .chapterList ul .list {
+      margin-bottom: 0.6em;
+   }
+
+   .chapterList ul .list h2 {
+      font-size: 1rem;
+   }
+
+   .chapterList ul .list .edit {
+      font-size: 0.7rem;
+   }
+
+   .chapterList ul .list .remove {
+      font-size: 0.7rem;
+   }
+
+   .msg {
+      text-align: center;
+      margin: 1em 0;
+      font-size: 1rem;
+      font-weight: 500;
+   }
+}
